@@ -20,6 +20,7 @@ const thoughtController = {
       .catch((err) => res.status(500).json(err));
   },
 
+  // Create a thought
   createThought(req, res) {
     Thought.create(req.body)
       .then((thought) => res.json(thought))
@@ -31,8 +32,7 @@ const thoughtController = {
 
   // Update a thought by id
   updateThought(req, res) {
-    this.getAllThougths
-      .findOneAndUpdate(
+    Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
         { $set: req.body },
         { runValidators: true, new: true }
