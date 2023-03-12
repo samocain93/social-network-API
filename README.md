@@ -32,6 +32,7 @@ The primary goal was to create this API using a NoSQL database - in this case, w
 - Download or clone this repository to your local machine
 - `Node.js` and `MongoDB` will need to be installed in order to use this application
 - In the root directory within your integrated terminal, run `npm install` to download the required dependencies
+- Use `npm run start` to start the server and begin. `Insomnia` or `Postman` are great tools you can use to test the HTTP routes for your application.
 
 For more information on Node.js and Express, visit:
 
