@@ -1,49 +1,37 @@
-# social-network-API
+# Social Network API 📱
 
-A social network API that uses a NoSQL database
+## Description 📝
 
-## Description
+This is an API backend for a social network application called "BootCamp Hub" - a network where bootcamp students can share their thoughts, have a friends list, and react to their friends' thoughts all in one place.
 
-This application will allow users to create and save notes on a webpage, providing a title and description along with each note. If the user decides to delete a note, they will have the option to delete a created note and remove it from their stored list.
+The primary goal was to create this API using a NoSQL database - in this case, we used `MongoDB`. This application utilizes `Express.js` for routing, `Mongoose` to handle our database schema and connection, the `Moment.js` module for date formatting, and `Insomnia` for seeding and testing our application and its routes.
 
-### User Story
+### User Story 👨‍💻
 
-- As a small business owner, I want to be able to write and save notes so that I can organize and keep track of tasks I need to complete.
+- As a social media startup, I want an API for my social network that uses a NoSQL datatbase so that my website can handle large amounts of unstructured data.
 
-### What I Learned
+## Table of Contents 📚
 
-- Continued practice using Node.js and new Node packages
-- Using the Express framework for the first time to create routes for a server
-- Deploying a webpage to be hosted using Heroku
-- Nodemon server monitoring
-- Creating routes to serve files and information to the client
-
-## Table of Contents
-
-- [Built Using](#built-using)
-- [Deployed Application](#deployed-application)
+- [Features](#features)
+- [Walkthrough](#walkthrough)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshot](#screenshot)
-- [Credits](#credits)
 - [License](#license)
-- [Questions](#questions)
 - [Socials](#socials)
 
-## Built Using
+## Features 🔨
 
-![html shield](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white)![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-## Deployed Application
+## Walkthrough
 
-The application can be viewed via Heroku at: https://powerful-peak-88597.herokuapp.com/
+[Click Here to Watch](https://drive.google.com/file/d/12idyc4eQC9DLD874zm6dRKgcP5vx-FLq/view)
 
 ## Installation
 
-No installation steps are necessary if viewing on the deployed page in Heroku.
-
-To test locally, you can clone this repo to your device and test in your own code editor and terminal.
-Please make sure Node.js has been installed. In your terminal/command line, run `npm i` or `npm install` to install the Node dependencies found in the `package.json` file.
+- Download or clone this repository to your local machine
+- `Node.js` and `MongoDB` will need to be installed in order to use this application
+- In the root directory within your integrated terminal, run `npm install` to download the required dependencies
 
 For more information on Node.js and Express, visit:
 
@@ -53,35 +41,34 @@ For more information on Node.js and Express, visit:
 
 ## Usage
 
-1. Press the blue "Get Started" button to start application
-2. Press the "Note Title" box to enter in a title for your note
-3. In the "note text" box, you can then provide a description and any further information for your note.
-4. Press the save button icon in the top right to add your note
-5. In the left sidebar, you can view any previous notes created
-6. To add a new note, press the plus button icon in the top right of the screen
-7. To delete a note, press the red trash can icon next to the note that you would like deleted
-8. To go back to the starting page, you can press the "Note Taker" heading in the top left
+- Full route functionality can better be seen in the walkthrough video, however, below are some screenshots to demo some of the basic testing done in `Insomnia`
 
-## Screenshot
+1. Retrieving all users
 
-![note taker screenshot](./public/assets/images/note_taker_screenshot.png)
+![getting all users img](./assets/images/get-users.png)
 
-## Credits
+2. Retriving a single user by ID
 
-- Programming with Mosh: https://www.youtube.com/watch?v=pKd0Rpw7O48
-- Phillip Loy / EdX Tutoring
+![get single user](./assets/images/get-single-user.png)
+
+3. Create a thought
+
+![create thought](./assets/images/create-thought.png)
+
+4. Get all thoughts
+
+![get all thoughts](./assets/images/get-thoughts.png)
+
+5. Add a reaction
+
+![add a reaction](./assets/images/add-reaction.png)
 
 ## License
 
-- This application is available to test and try locally. For any suggestions on improvements or new features, please see the links provided in the following section, or feel free to create a fork for this repo and submit a pull request.
-- Sam O'Cain, 2023
-
-## Questions
-
-Email: [samocain93@gmail.com](mailto:samocain93@gmail.com)
-
-GitHub: [samocain93](https://github.com/samocain93)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/social-network-API/blob/main/LICENSE)
 
 ## Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-samocain-blue)](https://www.linkedin.com/in/samocain/)
+
+GitHub: [samocain93](https://github.com/samocain93)
