@@ -23,11 +23,11 @@ The primary goal was to create this API using a NoSQL database - in this case, w
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white)![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-## Walkthrough
+## Walkthrough 🚶‍♂️
 
 [Click Here to Watch](https://drive.google.com/file/d/12idyc4eQC9DLD874zm6dRKgcP5vx-FLq/view)
 
-## Installation
+## Installation 🔌
 
 - Download or clone this repository to your local machine
 - `Node.js` and `MongoDB` will need to be installed in order to use this application
@@ -39,7 +39,7 @@ For more information on Node.js and Express, visit:
 
 - https://expressjs.com/
 
-## Usage
+## Usage 🗺
 
 - Full route functionality can better be seen in the walkthrough video, however, below are some screenshots to demo some of the basic testing done in `Insomnia`
 
@@ -63,11 +63,11 @@ For more information on Node.js and Express, visit:
 
 ![add a reaction](./assets/images/add-reaction.png)
 
-## License
+## License 📄
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/social-network-API/blob/main/LICENSE)
 
-## Socials
+## Socials 💬
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-samocain-blue)](https://www.linkedin.com/in/samocain/)
 
